@@ -1,1 +1,18 @@
-<h1><?php echo $this->insercion; ?></h1>
+<div>
+<?php 
+        if(count($this->posts)):
+            foreach($this->posts as $post): ?>
+                <div id="posts">
+                    <div class="entry">
+                        <h1><?php echo $post->titulo; ?></h1>
+                        <div class="contendPost">
+                            <?php echo $post->contenido; ?>
+                        </div>
+                    </div>
+                </div>
+<?php   endforeach;
+        else:
+            echo "No hay Post para mostrar";
+        endif; 
+    ?>
+</div>
