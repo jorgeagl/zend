@@ -10,9 +10,10 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
-       $this->view->insercion='index';
+       $post=new Application_Model_Posts();
+       $this->view->posts = $post->getAll();
     }
-
+ 
 
 }
 

@@ -10,17 +10,34 @@ class PostsController extends Zend_Controller_Action
 
     public function indexAction()
     {
-        $post=new Application_Model_Posts();
-        $this->view->posts = $post->getAll();
+       
     }
+    
     public function agregarAction()
     {
         $form= new Application_Form_Posts();
-        
-        if($this->getRequest()->isPost()){
-           if($form->isValid($this->_getAllParams())){
+        //$bind = $form->getValues();
+        //$name=$bind['imagen'];
+        if($this->getRequest()->isPost())
+        {
+           if($form->isValid($this->_getAllParams()))
+           {
                $model = new Application_Model_Posts();
-               $model->save($form->getValues());
+               
+               $id = $model->save($form->getValues());
+              //IMAGEN
+               /* 
+                // Traemos el adapter de Zend_File_Transfer
+               $upload = $form->imagen->getTransferAdapter();
+
+                // Lo ideal es que el path lo trajeramos de un archivo de configuracion.
+               $upload->addFilter('Rename', array(
+                    'target' => APPLICATION_PATH . '/../public/img/posts/post_'. $id .' .jpg',
+                    'overwrite' => true
+                ));
+               
+               //$model->updateImage($id, $name);
+               */
                return $this->_redirect('/');
            }
         }

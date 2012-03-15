@@ -40,3 +40,396 @@
 [Wed Mar 14 01:06:07 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
 [Wed Mar 14 01:06:07 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
 [Wed Mar 14 01:06:07 2012] [error] [client 127.0.0.1] PHP   8. Application_Model_Posts->save() C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php:23, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:38:46 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined method Application_Model_Posts::createRow() in C:\\wamp\\www\\newsweb\\application\\models\\Posts.php on line 17, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:38:46 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:38:46 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:38:46 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:38:46 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:38:46 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:38:46 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:38:46 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:38:46 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:38:46 2012] [error] [client 127.0.0.1] PHP   8. Application_Model_Posts->save() C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php:23, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:39:25 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined method Application_Model_Posts::createRow() in C:\\wamp\\www\\newsweb\\application\\models\\Posts.php on line 17, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:39:25 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:39:25 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:39:25 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:39:25 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:39:25 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:39:25 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:39:25 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:39:25 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:39:25 2012] [error] [client 127.0.0.1] PHP   8. Application_Model_Posts->save() C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php:23, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:46:53 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined method Application_Model_Posts::createRow() in C:\\wamp\\www\\newsweb\\application\\models\\Posts.php on line 17, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:46:53 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:46:53 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:46:53 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:46:53 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:46:53 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:46:53 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:46:53 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:46:53 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:46:53 2012] [error] [client 127.0.0.1] PHP   8. Application_Model_Posts->save() C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php:23, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:37 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined method Application_Model_Posts::createRow() in C:\\wamp\\www\\newsweb\\application\\models\\Posts.php on line 16, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:37 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:37 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:37 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:37 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:37 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:37 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:37 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:37 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:37 2012] [error] [client 127.0.0.1] PHP   8. Application_Model_Posts->save() C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php:23, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:41 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined method Application_Model_Posts::createRow() in C:\\wamp\\www\\newsweb\\application\\models\\Posts.php on line 16, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:41 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:41 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:41 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:41 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:41 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:41 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:41 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:41 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:51:41 2012] [error] [client 127.0.0.1] PHP   8. Application_Model_Posts->save() C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php:23, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:54:44 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined method Application_Model_Posts::createRow() in C:\\wamp\\www\\newsweb\\application\\models\\Posts.php on line 16, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:54:44 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:54:44 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:54:44 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:54:44 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:54:44 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:54:44 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:54:44 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:54:44 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 10:54:44 2012] [error] [client 127.0.0.1] PHP   8. Application_Model_Posts->save() C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php:23, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:06:44 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Application_Model_Posts' not found in C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php on line 22, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:06:44 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:06:44 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:06:44 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:06:44 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:06:44 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:06:44 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:06:44 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:06:44 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:10:19 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Application_Model_Posts' not found in C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php on line 22, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:10:19 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:10:19 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:10:19 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:10:19 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:10:19 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:10:19 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:10:19 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:10:19 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:12:40 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Application_Model_Posts' not found in C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php on line 23, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:12:40 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:12:40 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:12:40 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:12:40 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:12:40 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:12:40 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:12:40 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:12:40 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:19:51 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Application_Model_Posts' not found in C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php on line 22, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:19:51 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:19:51 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:19:51 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:19:51 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:19:51 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:19:51 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:19:51 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:19:51 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:20:45 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Application_Model_Posts' not found in C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php on line 22, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:20:45 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:20:45 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:20:45 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:20:45 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:20:45 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:20:45 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:20:45 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:20:45 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:05 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Posts' not found in C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php on line 22, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:05 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:05 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:05 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:05 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:05 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:05 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:05 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:05 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:23 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Posts' not found in C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php on line 22, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:23 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:23 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:23 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:23 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:23 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:23 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:23 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:23 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:25 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Posts' not found in C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php on line 22, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:25 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:25 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:25 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:25 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:25 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:25 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:25 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:21:25 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: row in C:\\wamp\\www\\newsweb\\application\\models\\Posts.php on line 17, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP   8. Application_Model_Posts->save() C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php:23, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function insert() on a non-object in C:\\wamp\\www\\newsweb\\application\\models\\Posts.php on line 17, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:28:24 2012] [error] [client 127.0.0.1] PHP   8. Application_Model_Posts->save() C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php:23, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:42:19 2012] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_RETURN in C:\\wamp\\www\\newsweb\\application\\models\\Posts.php on line 14, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:42:19 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:42:19 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:42:19 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:42:19 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:42:19 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:42:19 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:42:19 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:42:19 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:42:19 2012] [error] [client 127.0.0.1] PHP   8. Zend_Loader_Autoloader::autoload() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 11:42:19 2012] [error] [client 127.0.0.1] PHP   9. Zend_Loader_Autoloader_Resource->autoload() C:\\wamp\\www\\newsweb\\library\\zend\\Loader\\Autoloader.php:120, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: id in C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php on line 32
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: received in C:\\wamp\\www\\newsweb\\library\\zend\\File\\Transfer\\Adapter\\Http.php on line 161
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   8. Zend_File_Transfer_Adapter_Http->receive() C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php:35
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in C:\\wamp\\www\\newsweb\\library\\zend\\File\\Transfer\\Adapter\\Http.php on line 168
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   8. Zend_File_Transfer_Adapter_Http->receive() C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php:35
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: tmp_name in C:\\wamp\\www\\newsweb\\library\\zend\\File\\Transfer\\Adapter\\Http.php on line 171
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   8. Zend_File_Transfer_Adapter_Http->receive() C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php:35
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: tmp_name in C:\\wamp\\www\\newsweb\\library\\zend\\File\\Transfer\\Adapter\\Http.php on line 172
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   8. Zend_File_Transfer_Adapter_Http->receive() C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php:35
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: tmp_name in C:\\wamp\\www\\newsweb\\library\\zend\\File\\Transfer\\Adapter\\Http.php on line 185
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   8. Zend_File_Transfer_Adapter_Http->receive() C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php:35
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP Notice:  Undefined index: options in C:\\wamp\\www\\newsweb\\library\\zend\\File\\Transfer\\Adapter\\Http.php on line 186
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516
+[Wed Mar 14 12:22:22 2012] [error] [client 127.0.0.1] PHP   8. Zend_File_Transfer_Adapter_Http->receive() C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php:35
+[Wed Mar 14 12:28:54 2012] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '.' in C:\\wamp\\www\\newsweb\\application\\views\\scripts\\index\\index.phtml on line 9, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 12:28:54 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 12:28:54 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 12:28:54 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 12:28:54 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 12:28:54 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 12:28:54 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 12:28:54 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 12:28:54 2012] [error] [client 127.0.0.1] PHP   7. Zend_Controller_Action_HelperBroker->notifyPostDispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:527, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 12:28:54 2012] [error] [client 127.0.0.1] PHP   8. Zend_Controller_Action_Helper_ViewRenderer->postDispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\HelperBroker.php:277, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 12:28:54 2012] [error] [client 127.0.0.1] PHP   9. Zend_Controller_Action_Helper_ViewRenderer->render() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:960, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 12:28:54 2012] [error] [client 127.0.0.1] PHP  10. Zend_Controller_Action_Helper_ViewRenderer->renderScript() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:921, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 12:28:54 2012] [error] [client 127.0.0.1] PHP  11. Zend_View_Abstract->render() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:900, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 12:28:54 2012] [error] [client 127.0.0.1] PHP  12. Zend_View->_run() C:\\wamp\\www\\newsweb\\library\\zend\\View\\Abstract.php:888, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 12:29:03 2012] [error] [client 127.0.0.1] (20024)The given path is misformatted or contained invalid characters: Cannot map GET /%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%10JFIF%EF%BF%BD%01%01%01%EF%BF%BD%60%EF%BF%BD%60%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%10%EF%BF%BDExif%EF%BF%BD%EF%BF%BDMM%EF%BF%BD*%EF%BF%BD%EF%BF%BD%EF%BF%BD%08%EF%BF%BD%04%01;%EF%BF%BD%02%EF%BF%BD%EF%BF%BD%EF%BF%BD%08%EF%BF%BD%EF%BF%BD%08J%EF%BF%BDi%EF%BF%BD%04%EF%BF%BD%EF%BF%BD%EF%BF%BD%01%EF%BF%BD%EF%BF%BD%08R%EF%BF%BD%EF%BF%BD%EF%BF%BD%01%EF%BF%BD%EF%BF%BD%EF%BF%BD%10%EF%BF%BD%EF%BF%BD%10%EF%BF%BD%EF%BF%BD%1C%EF%BF%BD%07%EF%BF%BD%EF%BF%BD HTTP/1.1 to file, referer: http://newsweb/
+[Wed Mar 14 12:30:16 2012] [error] [client 127.0.0.1] (20024)The given path is misformatted or contained invalid characters: Cannot map GET /%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%10JFIF%EF%BF%BD%01%01%01%EF%BF%BD%60%EF%BF%BD%60%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%10%EF%BF%BDExif%EF%BF%BD%EF%BF%BDMM%EF%BF%BD*%EF%BF%BD%EF%BF%BD%EF%BF%BD%08%EF%BF%BD%04%01;%EF%BF%BD%02%EF%BF%BD%EF%BF%BD%EF%BF%BD%08%EF%BF%BD%EF%BF%BD%08J%EF%BF%BDi%EF%BF%BD%04%EF%BF%BD%EF%BF%BD%EF%BF%BD%01%EF%BF%BD%EF%BF%BD%08R%EF%BF%BD%EF%BF%BD%EF%BF%BD%01%EF%BF%BD%EF%BF%BD%EF%BF%BD%10%EF%BF%BD%EF%BF%BD%10%EF%BF%BD%EF%BF%BD%1C%EF%BF%BD%07%EF%BF%BD%EF%BF%BD HTTP/1.1 to file, referer: http://newsweb/
+[Wed Mar 14 12:30:46 2012] [error] [client 127.0.0.1] (20024)The given path is misformatted or contained invalid characters: Cannot map GET /%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%10JFIF%EF%BF%BD%01%01%01%EF%BF%BD%60%EF%BF%BD%60%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%10%EF%BF%BDExif%EF%BF%BD%EF%BF%BDMM%EF%BF%BD*%EF%BF%BD%EF%BF%BD%EF%BF%BD%08%EF%BF%BD%04%01;%EF%BF%BD%02%EF%BF%BD%EF%BF%BD%EF%BF%BD%08%EF%BF%BD%EF%BF%BD%08J%EF%BF%BDi%EF%BF%BD%04%EF%BF%BD%EF%BF%BD%EF%BF%BD%01%EF%BF%BD%EF%BF%BD%08R%EF%BF%BD%EF%BF%BD%EF%BF%BD%01%EF%BF%BD%EF%BF%BD%EF%BF%BD%10%EF%BF%BD%EF%BF%BD%10%EF%BF%BD%EF%BF%BD%1C%EF%BF%BD%07%EF%BF%BD%EF%BF%BD HTTP/1.1 to file, referer: http://newsweb/
+[Wed Mar 14 14:24:46 2012] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in C:\\wamp\\www\\newsweb\\application\\forms\\Posts.php on line 15, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 14:24:46 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 14:24:46 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 14:24:46 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 14:24:46 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 14:24:46 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 14:24:46 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 14:24:46 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 14:24:46 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 14:24:46 2012] [error] [client 127.0.0.1] PHP   8. Zend_Loader_Autoloader::autoload() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 14:24:46 2012] [error] [client 127.0.0.1] PHP   9. Zend_Loader_Autoloader_Resource->autoload() C:\\wamp\\www\\newsweb\\library\\zend\\Loader\\Autoloader.php:120, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP Warning:  explode() expects at least 2 parameters, 1 given in C:\\wamp\\www\\newsweb\\application\\views\\scripts\\index\\index.phtml on line 10, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   7. Zend_Controller_Action_HelperBroker->notifyPostDispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:527, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   8. Zend_Controller_Action_Helper_ViewRenderer->postDispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\HelperBroker.php:277, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   9. Zend_Controller_Action_Helper_ViewRenderer->render() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:960, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  10. Zend_Controller_Action_Helper_ViewRenderer->renderScript() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:921, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  11. Zend_View_Abstract->render() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:900, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  12. Zend_View->_run() C:\\wamp\\www\\newsweb\\library\\zend\\View\\Abstract.php:888, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  13. include() C:\\wamp\\www\\newsweb\\library\\zend\\View.php:108, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  14. explode() C:\\wamp\\www\\newsweb\\application\\views\\scripts\\index\\index.phtml:10, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP Warning:  explode() expects at least 2 parameters, 1 given in C:\\wamp\\www\\newsweb\\application\\views\\scripts\\index\\index.phtml on line 10, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   7. Zend_Controller_Action_HelperBroker->notifyPostDispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:527, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   8. Zend_Controller_Action_Helper_ViewRenderer->postDispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\HelperBroker.php:277, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   9. Zend_Controller_Action_Helper_ViewRenderer->render() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:960, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  10. Zend_Controller_Action_Helper_ViewRenderer->renderScript() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:921, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  11. Zend_View_Abstract->render() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:900, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  12. Zend_View->_run() C:\\wamp\\www\\newsweb\\library\\zend\\View\\Abstract.php:888, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  13. include() C:\\wamp\\www\\newsweb\\library\\zend\\View.php:108, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  14. explode() C:\\wamp\\www\\newsweb\\application\\views\\scripts\\index\\index.phtml:10, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP Warning:  explode() expects at least 2 parameters, 1 given in C:\\wamp\\www\\newsweb\\application\\views\\scripts\\index\\index.phtml on line 10, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   7. Zend_Controller_Action_HelperBroker->notifyPostDispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:527, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   8. Zend_Controller_Action_Helper_ViewRenderer->postDispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\HelperBroker.php:277, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   9. Zend_Controller_Action_Helper_ViewRenderer->render() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:960, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  10. Zend_Controller_Action_Helper_ViewRenderer->renderScript() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:921, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  11. Zend_View_Abstract->render() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:900, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  12. Zend_View->_run() C:\\wamp\\www\\newsweb\\library\\zend\\View\\Abstract.php:888, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  13. include() C:\\wamp\\www\\newsweb\\library\\zend\\View.php:108, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  14. explode() C:\\wamp\\www\\newsweb\\application\\views\\scripts\\index\\index.phtml:10, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP Warning:  explode() expects at least 2 parameters, 1 given in C:\\wamp\\www\\newsweb\\application\\views\\scripts\\index\\index.phtml on line 10, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   7. Zend_Controller_Action_HelperBroker->notifyPostDispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:527, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   8. Zend_Controller_Action_Helper_ViewRenderer->postDispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\HelperBroker.php:277, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   9. Zend_Controller_Action_Helper_ViewRenderer->render() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:960, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  10. Zend_Controller_Action_Helper_ViewRenderer->renderScript() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:921, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  11. Zend_View_Abstract->render() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:900, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  12. Zend_View->_run() C:\\wamp\\www\\newsweb\\library\\zend\\View\\Abstract.php:888, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  13. include() C:\\wamp\\www\\newsweb\\library\\zend\\View.php:108, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  14. explode() C:\\wamp\\www\\newsweb\\application\\views\\scripts\\index\\index.phtml:10, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP Warning:  explode() expects at least 2 parameters, 1 given in C:\\wamp\\www\\newsweb\\application\\views\\scripts\\index\\index.phtml on line 10, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   7. Zend_Controller_Action_HelperBroker->notifyPostDispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:527, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   8. Zend_Controller_Action_Helper_ViewRenderer->postDispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\HelperBroker.php:277, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   9. Zend_Controller_Action_Helper_ViewRenderer->render() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:960, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  10. Zend_Controller_Action_Helper_ViewRenderer->renderScript() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:921, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  11. Zend_View_Abstract->render() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:900, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  12. Zend_View->_run() C:\\wamp\\www\\newsweb\\library\\zend\\View\\Abstract.php:888, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  13. include() C:\\wamp\\www\\newsweb\\library\\zend\\View.php:108, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  14. explode() C:\\wamp\\www\\newsweb\\application\\views\\scripts\\index\\index.phtml:10, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP Warning:  explode() expects at least 2 parameters, 1 given in C:\\wamp\\www\\newsweb\\application\\views\\scripts\\index\\index.phtml on line 10, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   7. Zend_Controller_Action_HelperBroker->notifyPostDispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:527, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   8. Zend_Controller_Action_Helper_ViewRenderer->postDispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\HelperBroker.php:277, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   9. Zend_Controller_Action_Helper_ViewRenderer->render() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:960, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  10. Zend_Controller_Action_Helper_ViewRenderer->renderScript() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:921, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  11. Zend_View_Abstract->render() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:900, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  12. Zend_View->_run() C:\\wamp\\www\\newsweb\\library\\zend\\View\\Abstract.php:888, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  13. include() C:\\wamp\\www\\newsweb\\library\\zend\\View.php:108, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  14. explode() C:\\wamp\\www\\newsweb\\application\\views\\scripts\\index\\index.phtml:10, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP Warning:  explode() expects at least 2 parameters, 1 given in C:\\wamp\\www\\newsweb\\application\\views\\scripts\\index\\index.phtml on line 10, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   7. Zend_Controller_Action_HelperBroker->notifyPostDispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:527, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   8. Zend_Controller_Action_Helper_ViewRenderer->postDispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\HelperBroker.php:277, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP   9. Zend_Controller_Action_Helper_ViewRenderer->render() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:960, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  10. Zend_Controller_Action_Helper_ViewRenderer->renderScript() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:921, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  11. Zend_View_Abstract->render() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action\\Helper\\ViewRenderer.php:900, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  12. Zend_View->_run() C:\\wamp\\www\\newsweb\\library\\zend\\View\\Abstract.php:888, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  13. include() C:\\wamp\\www\\newsweb\\library\\zend\\View.php:108, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 15:45:25 2012] [error] [client 127.0.0.1] PHP  14. explode() C:\\wamp\\www\\newsweb\\application\\views\\scripts\\index\\index.phtml:10, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 16:27:43 2012] [error] [client 127.0.0.1] PHP Catchable fatal error:  Object of class Zend_Db_Table_Row could not be converted to string in C:\\wamp\\www\\newsweb\\application\\models\\Posts.php on line 20, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 16:27:43 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 16:27:43 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 16:27:43 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 16:27:43 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 16:27:43 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 16:27:43 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 16:27:43 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 16:27:43 2012] [error] [client 127.0.0.1] PHP   7. PostsController->agregarAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 16:27:43 2012] [error] [client 127.0.0.1] PHP   8. Application_Model_Posts->save() C:\\wamp\\www\\newsweb\\application\\controllers\\PostsController.php:27, referer: http://newsweb/posts/agregar/
+[Wed Mar 14 18:24:39 2012] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in C:\\wamp\\www\\newsweb\\application\\models\\Posts.php on line 25, referer: http://newsweb/
+[Wed Mar 14 18:24:39 2012] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://newsweb/
+[Wed Mar 14 18:24:39 2012] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\newsweb\\public\\index.php:0, referer: http://newsweb/
+[Wed Mar 14 18:24:39 2012] [error] [client 127.0.0.1] PHP   2. Zend_Application->run() C:\\wamp\\www\\newsweb\\public\\index.php:28, referer: http://newsweb/
+[Wed Mar 14 18:24:39 2012] [error] [client 127.0.0.1] PHP   3. Zend_Application_Bootstrap_Bootstrap->run() C:\\wamp\\www\\newsweb\\library\\zend\\Application.php:366, referer: http://newsweb/
+[Wed Mar 14 18:24:39 2012] [error] [client 127.0.0.1] PHP   4. Zend_Controller_Front->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Application\\Bootstrap\\Bootstrap.php:97, referer: http://newsweb/
+[Wed Mar 14 18:24:39 2012] [error] [client 127.0.0.1] PHP   5. Zend_Controller_Dispatcher_Standard->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Front.php:954, referer: http://newsweb/
+[Wed Mar 14 18:24:39 2012] [error] [client 127.0.0.1] PHP   6. Zend_Controller_Action->dispatch() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Dispatcher\\Standard.php:295, referer: http://newsweb/
+[Wed Mar 14 18:24:39 2012] [error] [client 127.0.0.1] PHP   7. IndexController->indexAction() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:516, referer: http://newsweb/
+[Wed Mar 14 18:24:39 2012] [error] [client 127.0.0.1] PHP   8. Zend_Loader_Autoloader::autoload() C:\\wamp\\www\\newsweb\\library\\zend\\Controller\\Action.php:0, referer: http://newsweb/
+[Wed Mar 14 18:24:39 2012] [error] [client 127.0.0.1] PHP   9. Zend_Loader_Autoloader_Resource->autoload() C:\\wamp\\www\\newsweb\\library\\zend\\Loader\\Autoloader.php:120, referer: http://newsweb/

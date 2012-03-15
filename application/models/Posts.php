@@ -1,6 +1,6 @@
 <?php
 
-class Application_Model_Posts
+class  Application_Model_Posts extends Zend_Db_Table_Abstract
 {
     protected $_name='posts';
     protected $_primary='idpost';
@@ -8,14 +8,30 @@ class Application_Model_Posts
     
     public function getAll()
     {
-        return $this->fetchAll();
+        $select = $this->select();
+        $select->order('idpost','DESC');
+    return $this->fetchAll($select);
     }
     
     public function save($bind)
     {
         $row = $this->createRow();
         $row->setFromArray($bind);
-        return $row->save();
+    return $row->save();
+    }
+    
+    public function getWebD(){
+        $select = $this->select();
+        $select->where('categoria=?','2');
+        $select->order('idpost','DESC');
+    return $this->fetchAll($select);
+    }
+    
+    public function getSofwareA(){
+        $select = $this->select();
+        $select->where('categoria=?','3');
+        $select->order('idpost','DESC');
+    return $this->fetchAll($select);
     }
 }
 

@@ -2,13 +2,20 @@
 <html lang="es">
     <head>
         <title>Portal</title>
-        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
      
+    <?php
+    //if ($this->ckeditor){
+        echo $this->headScript()->appendFile( $this->baseUrl().'/js/ckeditor/ckeditor.js');
+     //}
+    ?>    
+        
     <link href="/css/styles.css" rel="stylesheet" type="text/css">
     </head>
     
     <body>
-        <header>
+        
+        <header>   
             <hgroup>
                 <a href="/posts/agregar/" >Agregar Post</a>
                 <h1>News Programación</h1>
@@ -18,8 +25,8 @@
         <nav>
             <ul>
                 <li><a href="/">Home  |</a></li>
-                <li><a href="/">Web & Diseño   |</a></li>
-                <li><a href="/">Sofware & App   |</a></li>
+                <li><a href="categorias/web/">Web & Diseño   |</a></li>
+                <li><a href="categorias/software/">Sofware & App   |</a></li>
                 
             </ul>
         </nav>

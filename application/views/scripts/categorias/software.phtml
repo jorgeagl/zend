@@ -1,0 +1,34 @@
+<div>
+<?php 
+        if(count($this->soft)): ?>
+            <div class="posts">
+<?php       foreach($this->soft as $post): ?>
+                
+                <div class="headPost-Categoria"><strong>Categoria: </strong><?php echo $post->categoria; ?></div>
+                    <div class="entry">
+                        <div class="fecha-post">
+                            <?php $fecha=explode('/',$post->fecha); ?>
+                            <div class="month"><?php echo  $fecha['1']; ?></div>
+                            <div class="day"><?php echo $fecha['0']; ?></div>
+                            <div class="year"><?php echo $fecha['2']; ?></div>
+                        </div>
+                        <h1 class="titulo-post"><?php echo $post->titulo; ?></h1>
+                            <?php echo '<img src='.$post->imagen.' />' ?>
+                        <div class="contendPost">
+                            <?php echo $post->contenido; ?>
+                        </div>
+                        <div class="entry-footer">
+                            <div style="text-align: center">
+                                <img src="/img/socialMedia.png" width="400px" height="25px" />
+                            </div>
+                        </div>
+                    </div>
+                
+                
+<?php       endforeach; ?>
+            </div>
+<?php   else:
+            echo "No hay Post para mostrar";
+        endif; 
+    ?>
+</div>

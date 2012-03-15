@@ -19,6 +19,9 @@
         <controllerFile controllerName="Posts">
           <actionMethod actionName="index"/>
         </controllerFile>
+        <controllerFile controllerName="Categorias">
+          <actionMethod actionName="index"/>
+        </controllerFile>
       </controllersDirectory>
       <formsDirectory>
         <formFile formName="Posts"/>
@@ -54,6 +57,15 @@
           </viewControllerScriptsDirectory>
           <viewControllerScriptsDirectory forControllerName="posts">
             <viewScriptFile forActionName="agregar"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Categorias">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="categorias">
+            <viewScriptFile forActionName="software"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="categorias">
+            <viewScriptFile forActionName="web"/>
           </viewControllerScriptsDirectory>
         </viewScriptsDirectory>
         <viewHelpersDirectory/>

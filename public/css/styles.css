@@ -3,7 +3,9 @@
 body{
     background-color: #ECEAE1;
     text-align:center;
-    }
+    font-family: Arial,Verdana,sans-serif;
+    color: #333333;
+}
 header{
         margin:auto;
         width:800px;
@@ -45,4 +47,81 @@ footer{
     text-align: left;
     font-size: 14px;
 }
-	
+.entry{
+    background-color: #ffffff;
+    border-radius: 0px 0px 5px 5px;
+    position: relative;
+    margin: 20px 0 30px;
+    
+}
+
+.posts{
+    width: 800px;
+    text-align: left;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+.headPost-Categoria{
+    
+    background-color: #D7D4C9;
+    border-radius: 5px 5px 0 0;
+    color :#FFFFFF;
+    height:20px;
+    margin:0 0 -20px 0;
+    padding: 6px 20px 6px;       
+    font-size: 15px;
+}
+.titulo-post{
+    margin-left: 2px; 
+        
+}
+.fecha-post{
+    background-image: url(../img/date-bubble.png);
+    background-repeat: no-repeat;
+    color: #4F4322;
+    display: block;
+    position: absolute;
+    font-weight:bold;
+    height: 69px;
+    left: -73px;
+    text-align:center;
+    width: 73px;
+    top:-18px;
+}
+.fecha-post .month{
+    font-size:70%;
+    margin-top:6px;
+    text-transform:uppercase;
+}
+.fecha-post .day{
+    font-size:24px;
+    padding: 0;
+}
+.fecha-post .year{
+    font-size:70%;
+    padding:0;
+}
+.form-add-post{
+    width: 720px;
+    margin:auto;
+    text-align: left;
+}
+.contendPost{
+    line-height:18px !important;
+    margin: 0 0 18px;
+    padding:0 18px 18px 18px;
+    font-size: 14px;
+    text-align : justify;
+}
+.entry-footer{
+    border-top:1px solid #CCCCCC;
+    padding: 20px 0;
+    clear: both;
+    list-style: none;
+    margin:auto;
+    width: 765px;
+}
+.entry-footer ul li{
+    list-style:none;
+    font-size: 10px;
+}
